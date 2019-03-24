@@ -7,7 +7,7 @@ import os
 def index():
   now = dt.now()
   return {
-    "Проверка Heroku": "OK",
+    "Проверка Heroku": "OK2",
     "date": f"{now.day} {now.month} {now.year}"
   }
 
